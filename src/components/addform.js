@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button, Container, Modal } from "react-bootstrap";
+import "./addform.css";
 const AddMovie = ({ setMovies, movies }) => {
   const [title, setTitle] = useState("");
   const [pic, setPic] = useState("");
@@ -41,7 +42,7 @@ const AddMovie = ({ setMovies, movies }) => {
               <b>Include your favourite movies to the list</b>
             </h4>
 
-            <Form className="text-start my-5" onSubmit={handleSubmit}>
+            <Form className="form-fields text-start my-5" onSubmit={handleSubmit}>
               <Form.Group className="mb-3" controlId="MovieTitle">
                 <Form.Label>Movie title</Form.Label>
                 <Form.Control
