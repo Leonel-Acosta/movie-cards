@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
 .App {
   text-align: center;
+  background-color: #c60b1e;
+  color: #fec400;
+  font-family: "Josefin Sans";
 }
 
 .App-logo {
@@ -26,6 +31,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.app p {
+  font-family: "Josefin Sans";
+}
+
+.app h1 {
+  font-family: "Josefin Sans";
+}
+
+.app h2 {
+  font-family: "Josefin Sans";
 }
 
 @keyframes App-logo-spin {
